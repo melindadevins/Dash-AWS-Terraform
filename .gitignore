@@ -99,3 +99,14 @@ ENV/
 
 # mypy
 .mypy_cache/
+.idea/
+
+# zip files
+*.zip
+
+# Terraform files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Temp
+temp/
