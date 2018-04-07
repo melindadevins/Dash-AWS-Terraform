@@ -77,3 +77,9 @@ variable "ec2_keypair_name" {
   description = "SSH Keypair Name"
   default = "mel-ds-dev-east"
 }
+
+variable "dash_proxy_role_prefix"
+{
+  description = "Dash Proxy Role Name"
+  default = "dash_proxy_role"
+}

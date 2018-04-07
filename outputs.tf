@@ -1,11 +1,8 @@
 
-output "path_module" {
-  value = "${path.module}"
-}
 
 
-output "path_root" {
-  value = "${path.root}"
+output "plotly_dash_url" {
+  value = "http://${aws_elb.dash.dns_name}"
 }
 
 output "elb_dns_name" {

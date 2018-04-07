@@ -1,3 +1,6 @@
+resource "random_id" "suffix" {
+  byte_length = 8
+}
 
 #create s3 bucket for Dash configuration reesources
 resource "aws_s3_bucket" "resouce_bucket" {
